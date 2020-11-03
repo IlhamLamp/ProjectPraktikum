@@ -6,15 +6,15 @@
 * Buka text editor, kemudian salin kode ini ke text editor
 
 
-    1  #penggunaan end
-    2  print('A', end='')
-    3  print('B', end='')
-    4  print('C', end='')
-    5  print()
-    6  print('X')
-    7  print('Y')
-    8  print('Z')
-    9  
+      1  #penggunaan end
+      2  print('A', end='')
+      3  print('B', end='')
+      4  print('C', end='')
+      5  print()
+      6  print('X')
+      7  print('Y')
+      8  print('Z')
+      9  
 
 * Simpan dengan nama **lab1.py**, kemudian buka **Terminal** atau **CMD**, ketik ```python lab1.py```
 
