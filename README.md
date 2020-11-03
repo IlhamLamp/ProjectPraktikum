@@ -18,11 +18,11 @@
 
 * Simpan dengan nama **lab1.py**, kemudian buka **Terminal** atau **CMD**, ketik ```python lab1.py```
 
-              _gambar05_
+![gambar1](Lab-1/gambar/05.PNG)
 
 * Jika program diatas telah di jalankan maka akan menampilkan output sebagai berikut :
 
-              _gambar06_
+![gambar2](Lab-1/gambar/06.PNG)
 
 * Keterangan :
 
@@ -53,11 +53,11 @@
 
 * kemudian simpan, lalu pada **Terminal** atau **CMD**, ketik ```python lab1.py```
 
-              _gambar07_
+![gambar3](Lab-1/gambar/07.PNG)
 
 * Jika program diatas telah dijalankan maka akan menampilkan output sebagai berikut :
 
-              _gambar08_
+![gambar4](Lab-1/gambar/08.PNG)
 
 * Keterangan :
 
@@ -100,11 +100,11 @@
 
 * kemudian simpan, lalu pada **Terminal** atau **CMD**, ketik ```python lab1.py```
 
-              _gambar09_
+![gambar5](Lab-1/gambar/09.PNG)
 
 * Jika program diatas telah dijalankan maka akan menampilkan output sebagai berikut :
 
-              _gambar10_
+![gambar6](Lab-1/gambar/10.PNG)
 
 * Keterangan :
 
@@ -141,11 +141,11 @@
 
 * kemudian simpan, lalu pada **Terminal** atau **CMD**, ketik ```python lab1.py```
 
-              _gambar11_
+![gambar7](Lab-1/gambar/11.PNG)
 
 * Jika program diatas telah dijalankan maka akan menampilkan output sebagai berikut :
 
-              _gambar12_
+![gambar8](Lab-1/gambar/12.PNG)
 
 * Keterangan :
   1.  ```{0:>3}``` membuat huruf/angka mengambil lebar ke kanan sebanyak 3 karakter.
@@ -177,11 +177,11 @@
 
 * Simpan dengan nama **lab2.py**, kemudian buka **Terminal** atau **CMD**, ketik ```python lab2.py```
 
-              _gambar13_
+![gambar9](Lab-2/gambar/13.PNG)
 
 * Jika program diatas telah di jalankan maka akan menampilkan output error sebagai berikut :
 
-              _gambar14_
+![gambar10](Lab-2/gambar/14.PNG)
 
 * Keterangan baris 1 sampai 5:
   1.  Pada baris **pertama**, mengintruksikan kita untuk memasukkan **nilai a**, dan disini saya memilih angka 10. Sehingga di baris ke **tiga** di tampilkan angka **10**.
@@ -203,7 +203,7 @@
 
   3.  Simpan, lalu jalankan. Maka akan tampil
 
-                _gambar15_
+      ![gambar11](Lab-2/gambar/15.PNG)
 
 ### 2.  Konversi nilai variabel
 * Buka text editor, kemudian salin kode berikut
@@ -224,12 +224,13 @@
 
 
 #    
-      _gambar16_
+
+  ![gambar12](Lab-2/gambar/16.PNG)
 
 * Maka akan menampilkan output sebagai berikut
 
 
-    _gambar17_
+  ![gambar13](Lab-2/gambar/17.PNG)
 
 * Keterangan :
 
