@@ -33,9 +33,9 @@
   - Sedangkan baris 6,7,8 pada huruf **X,Y,Z** kita tulis manual dengan masing-masing huruf berbeda baris. Maka output yang ditampilkan akan berbeda baris.
 
 
-      X
-      Y
-      Z
+     X
+     Y
+     Z
 
 ### 2.  Penggunaan sep
 * ```sep``` atau _separator_ berfungsi sebagai tanda pemisah antar objek yang dicetak. Defaultnya adalah tanda spasi.
