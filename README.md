@@ -109,17 +109,17 @@
 
 * Keterangan :
 
-  1. Pada baris 19, cetak **0**, dan **10 ****(pangkat) **0** hasilnya **1**. Maka outputnya >> **0 1**
-  2. Pada baris 20, cetak **1**, dan **10 ****(pangkat) **1** hasilnya **10**. Maka outputnya >> **0 10**
-  3. Pada baris 21, cetak **2**, dan **10 ****(pangkat) **2** hasilnya **100**. Maka outputnya >> **0 100**
-  4. Pada baris 22, cetak **3**, dan **10 ****(pangkat) **3** hasilnya **1000**. Maka outputnya >> **0 1000**
-  5. Pada baris 23, cetak **4**, dan **10 ****(pangkat) **4** hasilnya **10000**. Maka outputnya >> **0 10000**
-  6. Pada baris 24, cetak **5**, dan **10 ****(pangkat) **5** hasilnya **100000**. Maka outputnya >> **0 100000**
-  7. Pada baris 25, cetak **6**, dan **10 ****(pangkat) **6** hasilnya **1000000**. Maka outputnya >> **0 1000000**
-  8. Pada baris 26, cetak **7**, dan **10 ****(pangkat) **7** hasilnya **10000000**. Maka outputnya >> **0 10000000**
-  9. Pada baris 27, cetak **8**, dan **10 ****(pangkat) **8** hasilnya **100000000**. Maka outputnya >> **0 100000000**
-  10.  Pada baris 28, cetak **9**, dan **10 ****(pangkat) **9** hasilnya **1000000000**. Maka outputnya >> **0 1000000000**
-  11.  Pada baris 29, cetak **10**, dan **10 ****(pangkat) **10** hasilnya **10000000000**. Maka outputnya >> **0 10000000000**
+  - Pada baris 19, cetak **0**, dan **10 ****(pangkat) **0** hasilnya **1**. Maka outputnya >> **0 1**
+  - Pada baris 20, cetak **1**, dan **10 ****(pangkat) **1** hasilnya **10**. Maka outputnya >> **0 10**
+  - Pada baris 21, cetak **2**, dan **10 ****(pangkat) **2** hasilnya **100**. Maka outputnya >> **0 100**
+  - Pada baris 22, cetak **3**, dan **10 ****(pangkat) **3** hasilnya **1000**. Maka outputnya >> **0 1000**
+  - Pada baris 23, cetak **4**, dan **10 ****(pangkat) **4** hasilnya **10000**. Maka outputnya >> **0 10000**
+  - Pada baris 24, cetak **5**, dan **10 ****(pangkat) **5** hasilnya **100000**. Maka outputnya >> **0 100000**
+  - Pada baris 25, cetak **6**, dan **10 ****(pangkat) **6** hasilnya **1000000**. Maka outputnya >> **0 1000000**
+  - Pada baris 26, cetak **7**, dan **10 ****(pangkat) **7** hasilnya **10000000**. Maka outputnya >> **0 10000000**
+  - Pada baris 27, cetak **8**, dan **10 ****(pangkat) **8** hasilnya **100000000**. Maka outputnya >> **0 100000000**
+  - Pada baris 28, cetak **9**, dan **10 ****(pangkat) **9** hasilnya **1000000000**. Maka outputnya >> **0 1000000000**
+  - Pada baris 29, cetak **10**, dan **10 ****(pangkat) **10** hasilnya **10000000000**. Maka outputnya >> **0 10000000000**
 
 ## 4. String format (Perataan string)
 * Nilai yang diformat mengambil lebar sebanyak karakter yang di presentasikan.
@@ -149,16 +149,15 @@
     ![gambar8](Lab-1/gambar/12.PNG)
 
 * Keterangan :
-  1.  ```{0:>3}``` membuat huruf/angka mengambil lebar ke kanan sebanyak 3 karakter.
-  2.  ```{1:>16}``` membuat huruf/angka mengambil lebar ke kanan sebanyak 16 karakter.
-  3.  format(**0**, 10**0). Angka <strong>0</strong> disini memberi nilai pada elemen sebelumnya, yaitu ```{0:>3}```
-  4.  format(0, <strong>10**0</strong>). Angka <strong>10 * * 0</strong> disini memberi nilai pada elemen sebelumnya, yaitu ```{1:>16}```
-
-  5. Sebagai contoh pada baris 34. ```format(2, 10**2)```, elemen ```{0:>3}``` diisi nilai **2**, bergeser ke kanan sebayak 3 karakter (dua karakter kosong + satu karakter pada angka **2**).
+  - ```{0:>3}``` membuat huruf/angka mengambil lebar ke kanan sebanyak 3 karakter.
+  - ```{1:>16}``` membuat huruf/angka mengambil lebar ke kanan sebanyak 16 karakter.
+  - format(**0**, 10**0). Angka <strong>0</strong> disini memberi nilai pada elemen sebelumnya, yaitu ```{0:>3}```
+  - format(0, <strong>10**0</strong>). Angka <strong>10 * * 0</strong> disini memberi nilai pada elemen sebelumnya, yaitu ```{1:>16}```
+  - Sebagai contoh pada baris 34. ```format(2, 10**2)```, elemen ```{0:>3}``` diisi nilai **2**, bergeser ke kanan sebayak 3 karakter (dua karakter kosong + satu karakter pada angka **2**).
 
              2
 
-  Selanjutnya, elemen ```{1:>16}``` diisi nilai **100**, karena 10 dipangkatkan 2 hasil nya adalah **100**. Bergeser ke kanan sebanyak 16 karakter (13 karakter kosong + tiga karakter pada angka **100**). Jadi, output yang ditampilkan pada baris 34 ini adalah
+  - Selanjutnya, elemen ```{1:>16}``` diisi nilai **100**, karena 10 dipangkatkan 2 hasil nya adalah **100**. Bergeser ke kanan sebanyak 16 karakter (13 karakter kosong + tiga karakter pada angka **100**). Jadi, output yang ditampilkan pada baris 34 ini adalah
 
              2             100   
 
@@ -186,9 +185,11 @@
     ![gambar10](Lab-2/gambar/14.PNG)
 
 * Keterangan baris 1 sampai 5:
-  1.  Pada baris **pertama**, mengintruksikan kita untuk memasukkan **nilai a**, dan disini saya memilih angka 10. Sehingga di baris ke **tiga** di tampilkan angka **10**.
-  2.  Pada baris **kedua**, mengintruksikan kita untuk memasukkan **nilai b**, dan disini saya memilih angka 15. Sehingga di baris ke **empat** di tampilkan angka **15**.
-  3.  Saat menjalankan baris **ke-5**,terjadi error :
+  - Pada baris **pertama**, mengintruksikan kita untuk memasukkan **nilai a**, dan disini saya memilih angka **10**. Sehingga di baris ke **tiga** di tampilkan **_Variabel a= 10_**.
+
+  - Pada baris **kedua**, mengintruksikan kita untuk memasukkan **nilai b**, dan disini saya memilih angka **15**. Sehingga di baris ke **empat** di tampilkan **_Variabel b= 15_**.
+
+  - Saat menjalankan baris **ke-5**,terjadi error :
 
 
           Traceback < most recent call last >:
@@ -197,13 +198,13 @@
           TypeError: %d format: a number is required, not str
 
 * Penjelasan :
-  1.  ```_TypeError: %d format: a number is required, not str_```, pada baris ini menunjukkan bahwa ```%d``` dianggap sebagai bilangan bulat desimal, sedangkan elemen sebelumnya merupakan _string_.
-  2.  Ganti ```%d``` pada baris ke-5 dengan ```%s```
+  - ```_TypeError: %d format: a number is required, not str_```, pada baris ini menunjukkan bahwa ```%d``` merupakan bilangan bulat desimal, sedangkan elemen sebelumnya merupakan _string_. Maka akan terjadi error.
+  - Ganti ```%d``` pada baris ke-5 dengan ```%s```, juga ``%(a+b)`` diganti dengan ``%(b+a)``
 
 
-        print("Hasil penggabungan {1}&{0}=%s".format(a,b) %(a+b))
+        print("Hasil penggabungan {1}&{0}=%s".format(a,b) %(b+a))
 
-  3.  Simpan, lalu jalankan. Maka akan tampil
+*  + Simpan, lalu jalankan. Maka akan tampil
 
       ![gambar11](Lab-2/gambar/15.PNG)
 
@@ -215,25 +216,34 @@
       2   b = input("Masukkan nilai b: ")
       3   print("Variabel a=",a)
       4   print("Variabel b=",b)
-      5   print("Hasil penggabungan {1}&{0}=%s".format(a,b) %(a+b))
+      5   print("Hasil penggabungan {1}&{0}=%s".format(a,b) %(b+a))
       6
       7   #konversi nilai variabel
       8   a = int(a)
       9   b = int(b)
       10  print("Hasil penjumlahan {1}+{0}=%d".format(a,b) %(a+b))
-      11  print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
+      11  print("Hasil pembagian {1}/{0}=%d".format(a,b) %(b/a))
       12
 
 
-#    
+#   
 
   ![gambar12](Lab-2/gambar/16.PNG)
 
 * Maka akan menampilkan output sebagai berikut
 
-
-  ![gambar13](Lab-2/gambar/17.PNG)
+    ![gambar13](Lab-2/gambar/17.PNG)
 
 * Keterangan :
 
-  1.  Pada baris ke-8, menyimpan masukkan kita pada baris pertama kemudian mengubahnya menjadi integer.
+  - Pada baris ke-8, disebutkan bahwa ```a = int(a)```. Mengubah nilai variabel **a** dari baris ke-1 yang sebelumya _string_ menjadi _integer_.
+
+  - Pada baris ke-9, disebutkan bahwa ```b = int(b)```. Mengubah nilai variabel **b** dari baris ke-2 yang sebelumya _string_ menjadi _integer_.
+
+  - Pada baris ke-10, disebutkan bahwa ```print("Hasil penjumlahan {1}+{0}=%d".format(a,b) %(a+b))```. Elemen ``{0}`` diisi dengan variabel **a**,yaitu **10**. Sedangkan elemen ``{1}`` diisi dengan variabel **b**, yaitu **15**. Kemudian keduanya ditambahkan, sehingga menjadi operasi penjumlahan. Dan tampilkan dalam bentuk desimal/bulat.
+
+  - Pada baris ke-11, disebutkan bahwa ```print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))```. Elemen ``{0}`` diisi dengan variabel **a**,yaitu **10**. Sedangkan elemen ``{1}`` diisi dengan variabel **b**, yaitu **15**. Kemudian lakukan operasi pembagian, dengan variabel **b** dibagi variabel **a**. Dan tampilkan dalam bentuk desimal/bulat.
+
+
+      15+10=25
+      15/10=1
