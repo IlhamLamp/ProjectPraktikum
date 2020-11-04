@@ -26,19 +26,17 @@
 
 * Keterangan :
 
-  <ul>
-  <li>1.  Pada huruf **A,B,C** (baris 2 sampai 4) kita menambahkan fungsi ```=end''``` agar huruf yang ditampilkan menjadi satu baris. Dan perintah ```print``` akan membuat huruf **ABC** tampil di layar.</li>
+  - Pada huruf **A,B,C** (pada baris 2 sampai 4) kita menambahkan fungsi ```=end''``` agar huruf yang ditampilkan menjadi satu baris. Dan perintah ```print``` akan membuat huruf **ABC** tampil di layar.
 
-  <li>2.   Dan perintah ```print()``` (baris 5) membuat tampil di layar.</li>
+  - Dan perintah ```print()``` (pada baris 5) membuat tampil di layar.
 
-  <li>3.   Sedangkan baris 6,7,8 pada huruf **X,Y,Z** kita tulis manual dengan masing-masing huruf berbeda baris. Maka output yang ditampilkan akan berbeda baris.</li>
+  - Sedangkan baris 6,7,8 pada huruf **X,Y,Z** kita tulis manual dengan masing-masing huruf berbeda baris. Maka output yang ditampilkan akan berbeda baris.
 
 
       X
       Y
       Z
 
-  </ul>
 ### 2.  Penggunaan sep
 * ```sep``` atau _separator_ berfungsi sebagai tanda pemisah antar objek yang dicetak. Defaultnya adalah tanda spasi.
 * Salin kode ini ke text editor
@@ -63,22 +61,22 @@
 
 * Keterangan :
 
-  1.  Pada baris 11 kita memberi nilai pada variabel :
+  - Pada baris 11 kita memberi nilai pada variabel :
 
       **w** = 10,
       **x** = 15,
       **y** = 20,
       **z** = 25
 
-  2.  Pada baris 12, perintah ```print``` mencetak variabel **w, x, y, z** ke layar. Sehingga Outputnya menjadi>>> **10 15 20 25**
+  - Pada baris 12, perintah ```print``` mencetak variabel **w, x, y, z** ke layar. Sehingga outputnya menjadi>>> **10 15 20 25**
 
-  3.  Pada baris 13, perintah ```sep=','``` memberi tanda koma (,) antara variabel **w, x, y, z**. Sehingga outputnya menjadi>>> **10,15,20,25**
+  - Pada baris 13, perintah ```sep=','``` memberi tanda koma (,) antara variabel **w, x, y, z**. Sehingga outputnya menjadi>>> **10,15,20,25**
 
-  4.  Pada baris 14, perintah ```sep=''``` menghapus jarak/spasi  antara variabel **w, x, y, z**. Sehingga outputnya menjadi>>> **10152025**
+  - Pada baris 14, perintah ```sep=''``` menghapus jarak/spasi  antara variabel **w, x, y, z**. Sehingga outputnya menjadi>>> **10152025**
 
-  5.  Pada baris 15, perintah ```sep=':'``` menambahkan titik dua (:) antara variabel **w, x, y, z**. Sehingga outputnya menjadi>>> **10:15:20:25**
+  - Pada baris 15, perintah ```sep=':'``` menambahkan titik dua (:) antara variabel **w, x, y, z**. Sehingga outputnya menjadi>>> **10:15:20:25**
 
-  6.  Pada baris 16, perintah ```sep='-----'``` menambahkan tanda strip (-) antara variabel **w, x, y, z**. Sehingga outputnya menjadi>>> **10-----15-----20-----25**
+  - Pada baris 16, perintah ```sep='-----'``` menambahkan tanda strip (-) antara variabel **w, x, y, z**. Sehingga outputnya menjadi>>> **10-----15-----20-----25**
 
 ### 3.  String format
 * String adalah tipe data yang digunakan untuk menyimpan karakter.
@@ -100,7 +98,7 @@
       29  print(10, 10**10)
       30
 
-* kemudian simpan, lalu pada **Terminal** atau **CMD**, ketik ```python lab1.py```
+* Kemudian simpan, lalu pada **Terminal** atau **CMD**, ketik ```python lab1.py```
 
 
   ![gambar5](Lab-1/gambar/09.PNG)
