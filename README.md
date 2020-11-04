@@ -18,25 +18,27 @@
 
 * Simpan dengan nama **lab1.py**, kemudian buka **Terminal** atau **CMD**, ketik ```python lab1.py```
 
-![gambar1](Lab-1/gambar/05.PNG)
+    ![gambar1](Lab-1/gambar/05.PNG)
 
 * Jika program diatas telah di jalankan maka akan menampilkan output sebagai berikut :
 
-![gambar2](Lab-1/gambar/06.PNG)
+    ![gambar2](Lab-1/gambar/06.PNG)
 
 * Keterangan :
 
-  1.  Pada huruf **A,B,C** (baris 2 sampai 4) kita menambahkan fungsi ```=end''``` agar huruf yang ditampilkan menjadi satu baris. Dan perintah ```print``` akan membuat huruf **ABC** tampil di layar.
+  <ul>
+  <li>1.  Pada huruf **A,B,C** (baris 2 sampai 4) kita menambahkan fungsi ```=end''``` agar huruf yang ditampilkan menjadi satu baris. Dan perintah ```print``` akan membuat huruf **ABC** tampil di layar.</li>
 
-  2.   Dan perintah ```print()``` (baris 5) membuat tampil di layar.
+  <li>2.   Dan perintah ```print()``` (baris 5) membuat tampil di layar.</li>
 
-  3.   Sedangkan baris 6,7,8 pada huruf **X,Y,Z** kita tulis manual dengan masing-masing huruf berbeda baris. Maka output yang ditampilkan akan berbeda baris.
+  <li>3.   Sedangkan baris 6,7,8 pada huruf **X,Y,Z** kita tulis manual dengan masing-masing huruf berbeda baris. Maka output yang ditampilkan akan berbeda baris.</li>
 
 
       X
       Y
       Z
 
+  </ul>
 ### 2.  Penggunaan sep
 * ```sep``` atau _separator_ berfungsi sebagai tanda pemisah antar objek yang dicetak. Defaultnya adalah tanda spasi.
 * Salin kode ini ke text editor
@@ -53,11 +55,11 @@
 
 * kemudian simpan, lalu pada **Terminal** atau **CMD**, ketik ```python lab1.py```
 
-![gambar3](Lab-1/gambar/07.PNG)
+    ![gambar3](Lab-1/gambar/07.PNG)
 
 * Jika program diatas telah dijalankan maka akan menampilkan output sebagai berikut :
 
-![gambar4](Lab-1/gambar/08.PNG)
+    ![gambar4](Lab-1/gambar/08.PNG)
 
 * Keterangan :
 
@@ -68,15 +70,15 @@
       **y** = 20,
       **z** = 25
 
-  2.  Pada baris 12, perintah ```print``` mencetak variabel **w, x, y, z** ke layar. Sehingga Outputnya >>> **10 15 20 25**
+  2.  Pada baris 12, perintah ```print``` mencetak variabel **w, x, y, z** ke layar. Sehingga Outputnya menjadi>>> **10 15 20 25**
 
-  3.  Pada baris 13, perintah ```sep=','``` memberi tanda koma (,) antara variabel **w, x, y, z**. Sehingga outputnya >>> **10,15,20,25**
+  3.  Pada baris 13, perintah ```sep=','``` memberi tanda koma (,) antara variabel **w, x, y, z**. Sehingga outputnya menjadi>>> **10,15,20,25**
 
-  4.  Pada baris 14, perintah ```sep=''``` menghapus jarak/spasi  antara variabel **w, x, y, z**. Sehingga outputnya >>> **10152025**
+  4.  Pada baris 14, perintah ```sep=''``` menghapus jarak/spasi  antara variabel **w, x, y, z**. Sehingga outputnya menjadi>>> **10152025**
 
-  5.  Pada baris 15, perintah ```sep=':'``` menambahkan titik dua (:) antara variabel **w, x, y, z**. Sehingga outputnya >>> **10:15:20:25**
+  5.  Pada baris 15, perintah ```sep=':'``` menambahkan titik dua (:) antara variabel **w, x, y, z**. Sehingga outputnya menjadi>>> **10:15:20:25**
 
-  6.  Pada baris 16, perintah ```sep='-----'``` menambahkan tanda strip (--) antara variabel **w, x, y, z**. Sehingga outputnya >>> **10-----15-----20-----25**
+  6.  Pada baris 16, perintah ```sep='-----'``` menambahkan tanda strip (-) antara variabel **w, x, y, z**. Sehingga outputnya menjadi>>> **10-----15-----20-----25**
 
 ### 3.  String format
 * String adalah tipe data yang digunakan untuk menyimpan karakter.
@@ -100,11 +102,12 @@
 
 * kemudian simpan, lalu pada **Terminal** atau **CMD**, ketik ```python lab1.py```
 
-![gambar5](Lab-1/gambar/09.PNG)
+
+  ![gambar5](Lab-1/gambar/09.PNG)
 
 * Jika program diatas telah dijalankan maka akan menampilkan output sebagai berikut :
 
-![gambar6](Lab-1/gambar/10.PNG)
+    ![gambar6](Lab-1/gambar/10.PNG)
 
 * Keterangan :
 
@@ -141,11 +144,11 @@
 
 * kemudian simpan, lalu pada **Terminal** atau **CMD**, ketik ```python lab1.py```
 
-![gambar7](Lab-1/gambar/11.PNG)
+    ![gambar7](Lab-1/gambar/11.PNG)
 
 * Jika program diatas telah dijalankan maka akan menampilkan output sebagai berikut :
 
-![gambar8](Lab-1/gambar/12.PNG)
+    ![gambar8](Lab-1/gambar/12.PNG)
 
 * Keterangan :
   1.  ```{0:>3}``` membuat huruf/angka mengambil lebar ke kanan sebanyak 3 karakter.
@@ -178,11 +181,11 @@
 
 * Simpan dengan nama **lab2.py**, kemudian buka **Terminal** atau **CMD**, ketik ```python lab2.py```
 
-![gambar9](Lab-2/gambar/13.PNG)
+    ![gambar9](Lab-2/gambar/13.PNG)
 
 * Jika program diatas telah di jalankan maka akan menampilkan output error sebagai berikut :
 
-![gambar10](Lab-2/gambar/14.PNG)
+    ![gambar10](Lab-2/gambar/14.PNG)
 
 * Keterangan baris 1 sampai 5:
   1.  Pada baris **pertama**, mengintruksikan kita untuk memasukkan **nilai a**, dan disini saya memilih angka 10. Sehingga di baris ke **tiga** di tampilkan angka **10**.
