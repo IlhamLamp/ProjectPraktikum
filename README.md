@@ -32,9 +32,9 @@
 
   - Sedangkan baris 6,7,8 pada huruf **X,Y,Z** kita tulis manual dengan masing-masing huruf berbeda baris. Maka output yang ditampilkan akan berbeda baris.
 
-                             X
-                             Y
-                             Z
+                 X
+                 Y
+                 Z
 
 ### 2.  Penggunaan sep
 * ```sep``` atau _separator_ berfungsi sebagai tanda pemisah antar objek yang dicetak. Defaultnya adalah tanda spasi.
@@ -150,8 +150,8 @@
 * Keterangan :
   - ```{0:>3}``` membuat huruf/angka mengambil lebar ke kanan sebanyak 3 karakter.
   - ```{1:>16}``` membuat huruf/angka mengambil lebar ke kanan sebanyak 16 karakter.
-  - format(**0**, 10**0). Angka <strong>0</strong> disini memberi nilai pada elemen sebelumnya, yaitu ```{0:>3}```
-  - format(0, <strong>10**0</strong>). Angka <strong>10 * * 0</strong> disini memberi nilai pada elemen sebelumnya, yaitu ```{1:>16}```
+  - ```format(**0**, 10**0)```. Angka <strong>0</strong> disini memberi nilai pada elemen sebelumnya, yaitu ```{0:>3}```
+  - ```format(0, <strong>10**0</strong>)```. Angka <strong>10 * * 0</strong> disini memberi nilai pada elemen sebelumnya, yaitu ```{1:>16}```
   - Sebagai contoh pada baris 34. ```format(2, 10**2)```, elemen ```{0:>3}``` diisi nilai **2**, bergeser ke kanan sebayak 3 karakter (dua karakter kosong + satu karakter pada angka **2**).
 
              2
@@ -245,4 +245,6 @@
 
 
       15+10=25
+      
+      
       15/10=1
