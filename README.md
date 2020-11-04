@@ -150,8 +150,8 @@
 * Keterangan :
   - ```{0:>3}``` membuat huruf/angka mengambil lebar ke kanan sebanyak 3 karakter.
   - ```{1:>16}``` membuat huruf/angka mengambil lebar ke kanan sebanyak 16 karakter.
-  - ```format(**0**, 10**0)```. Angka <strong>0</strong> disini memberi nilai pada elemen sebelumnya, yaitu ```{0:>3}```
-  - ```format(0, <strong>10**0</strong>)```. Angka <strong>10 * * 0</strong> disini memberi nilai pada elemen sebelumnya, yaitu ```{1:>16}```
+  - _format(**0**, 10**0)_. Angka <strong>0</strong> disini memberi nilai pada elemen sebelumnya, yaitu ```{0:>3}```
+  - _format(0, <strong>10**0</strong>)_. Angka <strong>10 * * 0</strong> disini memberi nilai pada elemen sebelumnya, yaitu ```{1:>16}```
   - Sebagai contoh pada baris 34. ```format(2, 10**2)```, elemen ```{0:>3}``` diisi nilai **2**, bergeser ke kanan sebayak 3 karakter (dua karakter kosong + satu karakter pada angka **2**).
 
              2
